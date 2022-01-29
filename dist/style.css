@@ -1,0 +1,148 @@
+.harry-potter-logo{
+  }
+body{
+  margin: 0;
+  min-height:100vh;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Glenfinnan_Viaduct.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  }
+body:before{
+  content:"";
+  width:100%;
+  min-height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+ 
+background: linear-gradient(to bottom, #634100 0%, #FFA900 40%, #7C0003 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+ 
+  opacity:0.6;
+  z-index:-1;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#menu{
+  margin:auto;
+  width:500px;
+  font-family: 'Anton', sans-serif;
+  margin-left:30%;
+  }
+ul{
+  list-style:none;
+}
+.secciones li a{
+  background-color:#7C0003;
+  color:#FFA900;
+  font-family:fantasy;
+  text-decoration:none;
+  padding:4px 5px;
+  display:block;
+}
+.secciones li a:hover{
+  background-color:#946200;
+}
+.secciones > li{
+  float:left;
+}
+.secciones li ul {
+  display:none;
+  position: absolute;
+  min-width: 100px;
+ }
+.secciones li:hover > ul {
+  display:block;
+}
+
+.reseña-contenido{
+  padding:40px;
+  margin-top: -30px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+ 
+}
+.J-K{
+  margin:50px;
+  border: #B32800 8px inset;
+  margin-right:120px;
+}
+.tres{
+  border: #B32800 5px dashed;
+}
+.img1{
+  margin-right:80px;
+  margin-bottom:80px;
+  margin-inline:20px;
+  color:white;
+}
+.img2{
+  margin-right:80px;
+  margin-bottom:80px;
+  margin-inline:20px;
+  color:white;}
+.img3{
+  margin-right:80px;
+  margin-bottom:80px;
+  margin-inline:20px;
+  margin-left:50;
+  color:white;}
+  p{
+    padding:40px;
+  margin-top: -30px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+  }
+h2{
+  color:white;
+  font: bold 90% cursive;
+  padding:40px;
+  margin-top: -30px;
+  font-size:40px;
+}
+.peli{
+  padding:3px;
+  margin-top:30px;
+  margin-left:80px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+}
+table {    
+font-family: "arial";
+font-size: 15px;    
+margin: 45px;    
+width: 480px;
+text-align: left;    
+border-collapse: collapse; }
+
+th {    
+font-size: 18px;    
+font-weight: normal;    
+padding: 8px;    
+background: #7C0003;
+border-top: 4px solid #FFA900;  
+border-bottom: 1px solid #FFA900; color:#FFA900; }
+
+td {    padding: 8px;     background: #B32800;     border-bottom: 1px solid #FFA900;
+    color: #FFA900;    border-top: 1px solid #FFA900;}
+
+tr:hover td { background: #7C0003; color:whide; }
+.ultimo{
+  color:whide;
+   font-size:18px;
+   font-family:Courier;
+   border:8px;
+   border-color:#7C0003;
+  background-color:#FFA900;
+   border-style:solid;
+   width:550px;
+   height:300px;
+   overflow:scroll;
+  }
